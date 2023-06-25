@@ -10,14 +10,15 @@ body {
 }
 
 .bookList {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 90vw;
-  margin: 3rem auto;
+  display: block;
+
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* width: 90vw; */
+  /* margin: 3rem auto;
   max-width: 1170px;
   gap: 1rem;
   text-align: center;
-  align-items: start;
+  align-items: start; */
 }
 
 .book {
