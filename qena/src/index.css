@@ -10,18 +10,23 @@ body {
 }
 
 .bookList {
-  display: block;
-
-  /* grid-template-columns: repeat(4, 1fr); */
-  /* width: 90vw; */
-  /* margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  margin: 1rem auto;
   max-width: 1170px;
   gap: 1rem;
   text-align: center;
-  align-items: start; */
 }
-
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  place-items: center;
+}
 .book {
+  width: 300px;
   background: rgb(215, 215, 215);
   border-radius: 1rem;
   padding: 1rem;

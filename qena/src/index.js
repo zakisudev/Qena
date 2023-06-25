@@ -4,13 +4,15 @@ import './index.css';
 
 const Read = () => {
   return (
-    <section className="bookList">
-      <Header />
-      <br />
-      <br />
-      <Book img={fBook.img} author={fBook.author} title={fBook.title} />
-      <Book img={sBook.img} author={sBook.author} title={sBook.title} />
-    </section>
+    <div>
+      <section className="bookList">
+        <Header />
+      </section>
+      <section className="container">
+        <Book img={fBook.img} author={fBook.author} title={fBook.title} />
+        <Book img={sBook.img} author={sBook.author} title={sBook.title} />
+      </section>
+    </div>
   );
 };
 const Header = () => {
